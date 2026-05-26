@@ -23,6 +23,27 @@
   font-size: 2.25rem;
 }
 
+.maintenance-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.lang-toggle {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #dbe2ff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.lang-toggle:hover {
+  background: rgba(255,255,255,0.02);
+}
+
 .maintenance-panel p {
   margin: 12px 0;
   line-height: 1.6;
