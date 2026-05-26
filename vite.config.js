@@ -10,6 +10,12 @@ export default defineConfig({
     // allow Render to override the port via the PORT env var
     port: Number(process.env.PORT) || 5173,
   },
+  // preview server (used by `vite preview`) allowed hosts for deployed domains
+  preview: {
+    host: true,
+    port: Number(process.env.PORT) || 5173,
+    allowedHosts: ['luminastreamplus.onrender.com']
+  },
 })
 
 
