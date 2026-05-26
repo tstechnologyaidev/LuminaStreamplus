@@ -1,0 +1,53 @@
+.maintenance-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, #0d1b2a 0%, #071019 100%);
+  color: #f5f7ff;
+  padding: 24px;
+}
+
+.maintenance-panel {
+  max-width: 520px;
+  width: 100%;
+  padding: 32px;
+  border-radius: 18px;
+  background: rgba(14, 26, 45, 0.95);
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.35);
+  text-align: center;
+}
+
+.maintenance-panel h1 {
+  margin-bottom: 16px;
+  font-size: 2.25rem;
+}
+
+.maintenance-panel p {
+  margin: 12px 0;
+  line-height: 1.6;
+  color: #c8d7ff;
+}
+
+.maintenance-note {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #aab9ff;
+}
+
+.maintenance-btn {
+  margin-top: 24px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 999px;
+  background: #4f7fff;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.maintenance-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 30px rgba(79, 127, 255, 0.35);
+}

@@ -1,0 +1,57 @@
+.admin-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.admin-login-form label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 8px;
+  font-weight: 500;
+  color: #dbe2ff;
+}
+
+.admin-login-form input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.05);
+  color: #f8f9ff;
+  font-size: 1rem;
+}
+
+.admin-login-form input:focus {
+  outline: none;
+  border-color: #7c9dff;
+  box-shadow: 0 0 0 4px rgba(79, 127, 255, 0.14);
+}
+
+.admin-login-error {
+  color: #ff8c8c;
+  margin: 0;
+  padding: 6px 0;
+}
+
+.admin-login-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.admin-login-actions .maintenance-btn {
+  flex: 1;
+}
+
+.admin-btn {
+  background: #4f7fff;
+}
+
+.admin-cancel {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
